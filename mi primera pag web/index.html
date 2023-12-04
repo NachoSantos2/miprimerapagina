@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/f18c78f7d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-skull-crossbones" style="color: #ff0000;"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Acerca de mi</li>
+                    <li>Trabajos</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div>
+        <main id="seccion-principal">
+            <seccion1 class="seccion-1">
+                <div class="acerca-de"> 
+                    <h2>
+                        Acerca de mi
+                    </h2>
+                    <p1 class="parrafo1">
+                        ¡Bienvenido a mi página! 
+                        Aquí aprenderás más sobre mí
+                    </p1>
+                    <p2 class="parrafo2">
+                        Me llamo Ignacio, nací en Bs. As. y vivo en Palermo 
+                        Me gusta la programación, y estudio Ing. Informática.
+                        También, suelo ir al cine y jugar videojuegos.
+                    </p2>
+                
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/guilherme-farinha-Qic04HqdzV0-unsplash.jpg" alt="imagen personal">
+                </div>
+            </seccion1>
+
+            <seccion2 class="seccion-2">
+                <img src="img/neom-V8w0gSmxajY-unsplash.jpg" alt="imagen de carrusel">
+            </seccion2>
+
+            <!-- Formulario -->
+            <section class="formulario">
+                <h2>Contacto</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="pie">
+    <div class="info">
+        <h3>
+            Informacion de Contacto
+        </h3>
+    </div>
+    <div class="contenido">
+        <ul>
+            <li>
+                E-mail
+            </li>
+            <li>
+                Telefono
+            </li>
+        </ul>
+    </div>
+    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank">
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+    </a>
+</footer>
+</body>
+</html>
